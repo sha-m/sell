@@ -1,0 +1,28 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.example.sell:sell:jar:0.0.1-SNAPSHOT
+[WARNING] 'dependencies.dependency.scope' for org.springframework.boot:spring-boot-devtools:jar must be one of [provided, compile, runtime, test, system] but is 'true'. @ line 62, column 20
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] -----------------------< com.example.sell:sell >------------------------
+[INFO] Building sell 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/springframework/boot/spring-boot-maven-plugin/2.1.2.RELEASE/spring-boot-maven-plugin-2.1.2.RELEASE.pom
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/springframework/boot/spring-boot-maven-plugin/2.1.2.RELEASE/spring-boot-maven-plugin-2.1.2.RELEASE.pom (0 B at 0 B/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/springframework/boot/spring-boot-maven-plugin/2.1.2.RELEASE/spring-boot-maven-plugin-2.1.2.RELEASE.jar
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/springframework/boot/spring-boot-maven-plugin/2.1.2.RELEASE/spring-boot-maven-plugin-2.1.2.RELEASE.jar (0 B at 0 B/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ sell ---
+[INFO] Deleting D:\idea\sell\target
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ sell ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.193 s
+[INFO] Finished at: 2019-06-15T17:04:38+08:00
+[INFO] ------------------------------------------------------------------------

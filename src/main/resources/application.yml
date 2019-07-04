@@ -1,0 +1,29 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: username
+    password: Sc2@!123
+    url: jdbc:mysql://192.168.233.138:3306/sell?useSSL=false&serverTimezone=Hongkong&characterEncoding=utf-8&autoReconnect=true
+#  jpa:
+#    show-sql: true
+  jackson:
+    default-property-inclusion: non_null
+  redis:
+    host: 192.168.233.138
+    pool: 6379
+server:
+  servlet:
+    context-path: /sell
+  port: 80
+
+wechat:
+  mpAppId: wx3f9cbaac2538c60a
+  mpAppSecret: b3972397da4133ee03763ea8b9ae1d98
+  mchId: 1538251011
+  mchKey: sc212121212121212121212121212121
+  keyPath: C:\Users\Administrator\Downloads\WXCertUtil\cert\apiclient_cert.p12
+  notifyUrl: http://2294813of5.iask.in/sell/pay/notify
+  templateId:
+    orderStatus: IGRz_Hvi3uFe_z8uRDuQ_PtCbbcRTbls7DYO4Dhmuag
+projecturl:
+  sell: http://2294813of5.iask.in
